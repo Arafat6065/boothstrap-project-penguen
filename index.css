@@ -1,0 +1,142 @@
+.heading{
+    background-color: #FFFBF0;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.nav{
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.nav-img{
+    width: 225px;
+}
+.nav-bar ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:768px){
+    .heading{
+       overflow-x: hidden;
+       text-align: center;
+       justify-content: center;
+    }
+    .nav-img{
+        width: 225px;
+    }
+    .nav-bar ul li {
+        display:none;
+       
+    }
+}
+
+.heading-sub{
+    color: #FABE4C;
+    font-size: 30px;
+    margin-top: 7%;
+}
+.heading-sub-text{
+    color: #363958;
+}
+.Button{
+    background-color: #A4BC46;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.heading-img{
+    width: 80%;
+    height: 30%;
+    margin-left: 70%;
+}
+
+@media only screen and (max-width:768px){
+    .heading-container{
+        flex-direction: column;
+    }
+    .heading-img{
+        
+        margin: 0 auto;
+        overflow-y:hidden ;
+        
+    }
+}
+.women-jacket-container{
+   display: flex;
+   width: 100%;
+   
+ 
+}
+.img-control{
+   height: 435px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.jacket-img{
+    width: 100%;
+}
+.jacket-title{
+    color: #363958;
+}
+.price{
+    color: #FABE4C;
+}
+
+@media only screen and (max-width:768px){
+    .women-jacket{
+        overflow-x: hidden;
+
+    }
+    .section-heading{
+        margin: 0 15%;
+    }
+    .women-jacket-container{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        
+    
+    }
+    .img-1-details{
+       
+        width: 300px;
+        margin: 0 auto;
+        overflow-x: hidden;
+     }
+     img{
+        width: 400px;
+    }
+    #btn{
+        margin-left: 80px;
+        width: 90px;
+    }
+}
+
+#img-control-2{
+    height: 435px;
+    width: 100%;
+}
+
+section{
+    margin: 0 auto;
+}
+@media only screen and (max-width:768px){
+    .customer-container{
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    font-size: 10px;
+    }
+    .contact-left{
+        margin-top: 500px;
+    }
+    .contact-img{
+        margin-top: 50px;
+        margin-right: -100px;
+        width: 400px;
+    }
+   
+}
